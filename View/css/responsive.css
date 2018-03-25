@@ -1,0 +1,70 @@
+
+
+
+
+/*Responsive table*/
+@media screen and (max-width: 640px){
+    .menu ul li a {
+        font-size: 0.8em;
+    }
+    .title h1, .hello {
+        text-align: center;
+    }
+    .my-form {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 40px;
+    }
+    .my-form label {
+        width: 60%;
+    }
+    table {
+        width: 95%;
+        min-width: 95%;
+        margin: 0px auto;
+        padding: 0px;
+    }
+    thead  {
+        display: none;
+    }
+    table tr {
+        display: block;
+        padding: 20px;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+    }
+    table td {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: block;
+        text-align: right;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu ul li a {
+        font-size: 0.5em;
+    }
+    .title h1 {
+        font-size: 1.6em;
+    }
+    section {
+        margin-bottom: 20px;
+        position: relative;
+        top: 70px;
+    }
+    table {
+        width: 95%;
+        min-width: 95%;
+    }
+
+    table tr {
+        font-size: 0.8em;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+}
